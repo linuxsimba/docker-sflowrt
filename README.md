@@ -9,7 +9,12 @@ To create the image `linuxsimba/sflow-rt`, execute the following command in the
 sflow-rt-docker folder:
 
 ```
-docker build -t linuxsimba/sflow-rt
+$ ls
+  Dockerfile
+  ..
+  ....
+  
+$ docker build -t linuxsimba/sflow-rt ./
 ```
 
 You can now push the image new to the registry:
